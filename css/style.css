@@ -3,7 +3,7 @@
     max-width: 1440px;
     position: relative;
     margin: 0 auto;
-    border:  5px solid #F0F1FF;
+    border:  0.1px solid #F0F1FF;
     height: 1885px;
     background-color: #F0F1FF;
 }
@@ -46,6 +46,7 @@ font-family: 'Rubik', sans-serif;
     width: 37%;
 }
 section{
+    margin: 0 auto;
     width: 80%;
     height: 560px;
     margin: 87px 0 0 143px;
@@ -104,6 +105,7 @@ font-family: 'Rubik', sans-serif;
     position: relative;
 }
 .img2{
+    width: 100%;
     border-radius: 30%;
     position: absolute;
     bottom: 0;
@@ -323,4 +325,101 @@ font-family: 'Inter', sans-serif;
 font-family: 'Kumbh Sans', sans-serif;
 font-family: 'Plus Jakarta Sans', sans-serif;
 font-family: 'Rubik', sans-serif;
+}
+
+@media (max-width:1300px) {
+    .container{
+        max-width: 1300px;
+    }
+    header{
+        margin-left: 140px;
+        gap: 600px;
+    }
+    .img1{
+        width: 30%;
+        height: 680px;
+        left: 70.1%;
+    }
+    section{
+        gap: 200px;
+        margin-top: 60px;
+        height: 500px;
+    }
+    .header_text{
+        font-size: 2rem;
+    }
+    .button1{
+        font-size: 1.40rem;
+    }
+    .square1{
+        width: 10%;
+        height: 100px;
+        left: 85%;
+    }
+    .square2{
+        width: 13%;
+        left: 53%;
+    } 
+    h2{
+        font-size: 2.40rem;
+        line-height: 40px;
+    }
+    .text2{
+        font-size: 1rem;
+    }
+    .secdion_div{
+        margin-top: 60px;
+        justify-content: space-evenly;
+    }
+    footer{
+        gap: 600px;
+    }
+    .button4{
+        font-size: 1.40rem;
+        
+    }
+}
+@media (max-width: 1245px){
+    .container{
+        max-width: 1245px;
+    }
+    header{
+        
+    }
+    .img1{
+        height: 600px;
+        width: 40%;
+        left: 60%;
+        
+    }
+    .circle{
+        width: 80%;
+        height: 80%;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+    section{
+        gap: 90px;
+    }
+    .square1{
+        left: 82%;
+        height: 100px;
+    }
+    .square2{
+        left: 52%;
+        height: 100px;
+    }
+    .img2{
+        width: 80%;
+        left: 40%;
+        top: 20%;
+        bottom: 20%;
+    }
+    footer{
+        gap: 550px;
+    }
+    .button4{
+        font-size: 1rem;
+        
+    }
 }
