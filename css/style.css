@@ -1,29 +1,32 @@
-.container{
+.container {
     width: 100%;
     max-width: 1440px;
     position: relative;
     margin: 0 auto;
-    border:  0.1px solid #F0F1FF;
+    border: 0.1px solid #F0F1FF;
     height: 1885px;
     background-color: #F0F1FF;
 }
-header{
+
+header {
     width: 80%;
     margin: 24px auto;
     display: flex;
     align-items: center;
     gap: 810px;
 }
-.header_text{
+
+.header_text {
     font-size: 2.5rem;
     color: #13183F;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
-.button1{
+
+.button1 {
     font-size: 1.5rem;
     color: #ffffff;
     background-color: #13183F;
@@ -34,18 +37,20 @@ font-family: 'Rubik', sans-serif;
     align-items: center;
     justify-content: center;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
-.img1{
+
+.img1 {
     position: absolute;
     left: 63.1%;
     top: 0%;
     width: 37%;
 }
-section{
+
+section {
     margin: 0 auto;
     width: 80%;
     height: 560px;
@@ -54,39 +59,43 @@ section{
     display: flex;
     gap: 249px;
 }
-.secdion_div{
+
+.secdion_div {
     width: 40%;
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.text2{
+
+.text2 {
     font-family: 'Explora', cursive;
     font-family: 'Inter', sans-serif;
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
 
-font-size: 1.125rem;
-line-height: 28px;
-color: #83869A;
+    font-size: 1.125rem;
+    line-height: 28px;
+    color: #83869A;
 }
-h2{
+
+h2 {
     font-size: 3.5rem;
     color: #13183F;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
-line-height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    line-height: 72px;
 }
-.button2{
+
+.button2 {
     font-size: 1.5rem;
     color: #ffffff;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-border-radius: 31.5px;
+    border-radius: 31.5px;
     width: 167px;
     height: 63px;
     border: none;
@@ -94,30 +103,34 @@ border-radius: 31.5px;
     align-items: center;
     justify-content: center;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
-.section_img{
+
+.section_img {
     width: 30%;
     height: 100%;
     position: relative;
 }
-.img2{
+
+.img2 {
     width: 100%;
     border-radius: 30%;
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.circle{
+
+.circle {
     width: 100%;
     height: 100%;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-border-radius: 158.5px;
+    border-radius: 158.5px;
 }
-.square1{
+
+.square1 {
     width: 13%;
     border-radius: 15px;
     background: #ffffff;
@@ -131,7 +144,8 @@ border-radius: 158.5px;
     justify-content: center;
     flex-direction: column;
 }
-.square2{
+
+.square2 {
     position: absolute;
     width: 17%;
     border-radius: 15px;
@@ -145,18 +159,25 @@ border-radius: 158.5px;
     justify-content: center;
     flex-direction: column;
 }
-article{
+.square3{
+    display: none;
+}
+.square4{
+    display: none;
+}
+article {
     position: relative;
     width: 80%;
     height: 748px;
     margin: 780px auto;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
-.cards{
+
+.cards {
     width: 100%;
     height: 100%;
     display: flex;
@@ -165,28 +186,32 @@ font-family: 'Rubik', sans-serif;
     justify-content: space-between;
     align-items: end;
 }
-.card1{
+
+.card1 {
     padding: 64px 32px 138px 32px;
     width: 30%;
     height: 322px;
     border-radius: 15px;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 }
-.card{
+
+.card {
     width: 30%;
     height: 322px;
     border-radius: 15px;
     padding: 64px 32px 40px 32px;
     background-color: #ffffff;
 }
-.text_div{
+
+.text_div {
     width: 100%;
     height: 120px;
     padding-right: 60px;
     display: flex;
     align-items: center;
 }
-.card_text1{
+
+.card_text1 {
     font-size: 2rem;
     color: #Ffffff;
     line-height: 40px;
@@ -196,30 +221,34 @@ font-family: 'Rubik', sans-serif;
     flex-direction: column;
     justify-content: space-between;
 }
-.card_text2{
+
+.card_text2 {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-h4{
+
+h4 {
     font-size: 1.5rem;
 }
-.button3{
+
+.button3 {
     border: none;
     background-color: #ffffff;
     font-size: 1.125rem;
-    color:  #F74780;
+    color: #F74780;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
-display: flex;
-justify-content: start;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: start;
 }
-.icon1{
+
+.icon1 {
     position: absolute;
     top: 0;
     width: 56px;
@@ -233,7 +262,8 @@ justify-content: start;
     font-size: 1.75rem;
     color: #Ffffff;
 }
-.icon2{
+
+.icon2 {
     position: absolute;
     top: 0;
     width: 56px;
@@ -247,7 +277,8 @@ justify-content: start;
     font-size: 1.75rem;
     color: #Ffffff;
 }
-.icon3{
+
+.icon3 {
     position: absolute;
     top: 52.5%;
     width: 56px;
@@ -261,7 +292,8 @@ justify-content: start;
     font-size: 1.75rem;
     color: #Ffffff;
 }
-.icon4{
+
+.icon4 {
     position: absolute;
     top: 52.5%;
     width: 56px;
@@ -275,7 +307,8 @@ justify-content: start;
     font-size: 1.75rem;
     color: #Ffffff;
 }
-.icon5{
+
+.icon5 {
     position: absolute;
     top: 52.5%;
     width: 56px;
@@ -289,28 +322,31 @@ justify-content: start;
     font-size: 1.75rem;
     color: #Ffffff;
 }
-footer{
+
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 120px;
-    background-color: #13183F;  
+    background-color: #13183F;
     margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 810px;
     padding: 0 150px 0 150px;
 }
-.footer_text{
+
+.footer_text {
     font-size: 2.5rem;
     color: #ffffff;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
-.button4{
+
+.button4 {
     font-size: 1.5rem;
     background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     color: #ffffff;
@@ -321,105 +357,364 @@ font-family: 'Rubik', sans-serif;
     align-items: center;
     justify-content: center;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Kumbh Sans', sans-serif;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 @media (max-width:1300px) {
-    .container{
+    .container {
         max-width: 1300px;
     }
-    header{
+
+    header {
         margin-left: 140px;
         gap: 600px;
     }
-    .img1{
+
+    .img1 {
         width: 30%;
         height: 680px;
         left: 70.1%;
     }
-    section{
+
+    section {
         gap: 200px;
         margin-top: 60px;
         height: 500px;
     }
-    .header_text{
+
+    .header_text {
         font-size: 2rem;
     }
-    .button1{
+
+    .button1 {
         font-size: 1.40rem;
     }
-    .square1{
+
+    .square1 {
         width: 10%;
         height: 100px;
         left: 85%;
     }
-    .square2{
+
+    .square2 {
         width: 13%;
         left: 53%;
-    } 
-    h2{
+    }
+
+    h2 {
         font-size: 2.40rem;
         line-height: 40px;
     }
-    .text2{
+
+    .text2 {
         font-size: 1rem;
     }
-    .secdion_div{
+
+    .secdion_div {
         margin-top: 60px;
         justify-content: space-evenly;
     }
-    footer{
+
+    footer {
         gap: 600px;
     }
-    .button4{
+
+    .button4 {
         font-size: 1.40rem;
-        
+
     }
 }
-@media (max-width: 1245px){
-    .container{
+
+@media (max-width: 1245px) {
+    .container {
         max-width: 1245px;
     }
-    header{
-        
-    }
-    .img1{
+
+    .img1 {
         height: 600px;
         width: 40%;
         left: 60%;
-        
     }
-    .circle{
+
+    .circle {
         width: 80%;
         height: 80%;
         margin-top: 50px;
         margin-left: 120px;
     }
-    section{
+
+    section {
         gap: 90px;
     }
-    .square1{
+
+    .square1 {
         left: 82%;
         height: 100px;
     }
-    .square2{
+
+    .square2 {
         left: 52%;
         height: 100px;
     }
-    .img2{
+
+    .img2 {
         width: 80%;
         left: 40%;
         top: 20%;
         bottom: 20%;
     }
-    footer{
+
+    footer {
         gap: 550px;
     }
-    .button4{
+
+    .button4 {
         font-size: 1rem;
-        
+
+    }
+}
+
+@media (max-width:1196px) {
+    .img1 {
+        width: 30%;
+        left: 70%;
+        top: 3%;
+    }
+
+    .img2 {
+        width: 100%;
+        left: 0;
+    }
+
+    .circle {
+        height: 75%;
+        position: relative;
+    }
+
+    header {
+        gap: 400px;
+    }
+
+    footer {
+        gap: 400px;
+    }
+
+    .card {
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .card_text2 {
+        padding-right: 0;
+        justify-content: space-evenly;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .text2 {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .text_div {
+        padding-right: 0;
+    }
+
+    .card_text1 {
+        font-size: 1.5rem;
+    }
+
+    .square2 {
+        left: 55%;
+    }
+    article{
+        margin-left: 140px;
+    }
+}
+
+@media (max-width:1029px) {
+    .square2 {
+        left: 50%;
+        bottom: 20%;
+
+    }
+
+    .text2 {
+        font-size: 0.75rem;
+    }
+
+    .img1 {
+        width: 36%;
+        left: 64%;
+        height: auto;
+    }
+
+    header {
+        gap: 300px;
+    }
+
+    .img2 {
+        height: 350px;
+        top: 10%;
+        border-radius: 40%;
+    }
+
+    section {
+        gap: 150px;
+    }
+
+    .circle {
+        height: 350px;
+        margin-left: 0;
+        margin-bottom: 150px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .square1 {
+        left: 80%;
+    }
+
+    article {
+        margin-top: 640px;
+    }
+
+    .cards {
+        margin-top: 50px;
+        width: 100%;
+        height: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+
+    .card1 {
+        width: 90%;
+        height: 260px;
+        margin-top: 28px;
+    }
+
+    .card {
+        height: 260px;
+        width: 90%;
+        padding-right: 5px;
+    }
+
+    .icon1 {
+        left: 57%;
+
+    }
+
+    .icon2 {
+        left: 3%;
+        top: 42%;
+    }
+
+    .icon3 {
+        top: 42%;
+        left: 57%;
+    }
+
+    .icon4 {
+        top: 83%;
+        left: 3%;
+    }
+
+    .icon5 {
+        top: 83%;
+        left: 57%;
+    }
+
+    footer {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 954px) {
+    .img1 {
+        width: 30%;
+        height: 30%;
+        top: 6%;
+        left: 70%;
+    }
+
+    .circle {
+        height: 70%;
+        margin-top: 100px;
+    }
+
+    .img2 {
+        height: 70%;
+        top: 30%;
+    }
+
+    footer {
+        gap: 280px;
+    }
+}
+
+@media (max-width:842px) {
+    .container {
+        max-width: 841px;
+    }
+
+    header {
+        margin-left: 100px;
+        gap: 200px;
+    }
+
+    section {
+        margin-top: 0;
+        margin-left: 100px;
+        gap: 170px;
+    }
+
+    .circle {
+        height: 302px;
+        margin-top: 60px;
+
+    }
+
+    article {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .img1 {
+        top: 0;
+    }
+
+    .square1 {
+        left: 85%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .square2 {
+        height: 80px;
+        width: 100px;
+        top: 55%;
+        left: 55%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        padding-left: 100px;
+    }
+
+    .footer_text {
+        font-size: 2rem;
     }
 }

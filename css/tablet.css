@@ -1,0 +1,36 @@
+@media (max-width: 721px){
+      .container{
+        max-width: 721px;
+        height: 1690px;
+      }
+      .img1{
+        top: 3%;
+      }
+      header{
+        margin-left: 80px;
+      }
+      .button1{
+        width: 120px;
+        font-size: 1rem;
+      }
+      .circle{
+        padding-top: 90px;
+        margin-top: 100px;
+        width: 150px;
+      }
+      section{
+        gap: 130px;
+        margin-left: 80px;
+      }
+      article{
+        margin-top: 500px;
+        margin-left: 80px;
+      }
+      .cards{
+        gap: 50px;
+      }
+      footer{
+        gap: 180px;
+        padding-left: 80px;
+      }
+}
